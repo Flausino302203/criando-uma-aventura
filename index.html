@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Pacifico&display=swap" rel="stylesheet">
+    <title>Em busca do tesouro.</title>
+</head>
+<body>
+     <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenário-passo0.png" alt="">
+            <p>Um dia desses na escola, prestando atenção na aula de português, a professora decidiu contar para todos os alunos sobre o tesouro no fim do arco-íris. E então sugeriu que os alunos criassem um jogo de aventura, com pistas para encontrar o tesouro perdido.</p>
+            <button class="btn-proximo" data-proximo="1">Coordenação.</button>
+            <button class="btn-proximo" data-proximo="2">Ginásio.</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa seu desafio na coordenação, perto da informática, para encontrar a primeira pista do desafio da professora.</p>
+            <button class="btn-proximo" data-proximo="3">Dentro da coordenação.</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para sala.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>No ginásio vc encontrar diversos atletas jogando
+                e empenhado demais para ganhar o jogo.</p>
+            <button class="btn-proximo" data-proximo="5">Investigar no segundo andar.</button>
+            <button class="btn-proximo" data-proximo="6">Ivestigar na sala dos materias espotivos.
+                 </button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Na cordenação, você encontra a professora regiane apontando que a próxima pista está
+                localizada na sala dos professores.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para sala dos profesores pela porta de fora.</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
